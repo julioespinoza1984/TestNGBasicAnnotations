@@ -1,15 +1,9 @@
 package edu.jespinoza.testng;
 
-public class Calculator{
-    public double add(double a, double b){
-        return a+b;
-    }
+public interface Calculator{
+    double add(double a, double b);
 
-    public double subtract(double a, double b){
-        return a-b;
-    }
+    double subtract(double a, double b);
 
-    public double multiply(double a, double b){
-        return a*b;
-    }
+    double multiply(double a, double b);
 }
